@@ -16,7 +16,7 @@ build-type:          Simple
 cabal-version:       >=1.10
 
 library
-  exposed-modules: While, While.Parser
+  exposed-modules: While, While.Types, While.Parser, While.Parser.Lexer
   -- other-modules:       
   -- other-extensions:    
   build-depends:       base >=4.8 && <4.9, megaparsec, text
